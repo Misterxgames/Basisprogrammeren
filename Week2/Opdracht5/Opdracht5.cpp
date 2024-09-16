@@ -1,9 +1,13 @@
 #include<stdio.h>
 
+int a;
 
 int main() {
-	int a;
+	
+
 	printf_s("Geef een cijfer: ");
-	scanf_s("%d", a);
+	scanf_s("%d\n", a);
+
+	printf_s("%d\n", a);
 
 }
